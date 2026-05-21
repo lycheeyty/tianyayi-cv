@@ -6,6 +6,14 @@ import type { Content } from "@/data/content";
 
 type ContentProps = Content;
 
+const withBasePath = (path: string) => {
+  if (!path.startsWith("/")) {
+    return path;
+  }
+
+  return `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${path}`;
+};
+
 const Content: React.FC<ContentProps> = ({ title, items }) => {
   return (
     <section className="my-14 text-sm">
@@ -45,7 +53,7 @@ export default function Home() {
         <section className="flex items-center">
           <Image
             alt="Author"
-            src={generalData.avatar}
+            src={withBasePath(generalData.avatar)}
             width={80}
             height={80}
             className="rounded-full object-cover"
