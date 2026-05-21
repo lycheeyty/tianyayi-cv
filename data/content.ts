@@ -5,27 +5,27 @@ export const contentData = [
       {
         title: "TikTok LIVE",
         date: "2025 — 至今",
-        description: "主导多人社交直播间中心化入口的探索与设计，构建实时社交心智；整合多人直播间装修布局，提升直播间整体品质感；优化粉丝团加团体验，深化主播与粉丝的长期关系。",
+        description: "主导多人社交直播间中心化入口的探索与设计，目标是建立 TT 独特的实时社交心智；整合多人直播间装修布局，优化直播间背景，提升整体品质感；优化粉丝团加团体验，深化主播与粉丝的长期关系。",
       },
       {
         title: "TikTok Photo-text",
         date: "2024 — 2025",
-        description: "主导独立图文社区 App 从 0 到 1 上线，搭建图文创作框架与核心图文功能，设计提升信息价值的产品手段，如文字模式。",
+        description: "推动独立图文社区 App 从 0 到 1 上线，设计驱动差异化的图文创作框架全量，和 Creative 团队合作推进信息图文的核心产品功能，如文字模式上线。",
       },
       {
         title: "TikTok Creation",
         date: "2022 — 2024",
-        description: "主导创作工具模块的核心体验设计，涵盖贴纸、特效、模板等模块；建立特效图标、引导手势等素材的品质标准，提升整体视觉一致性与品质感。"
+        description: "负责创作工具模块的核心体验设计，涵盖贴纸、特效、模板等模块，主导推进多项设计自驱功能上线；建立特效图标、引导手势等素材的设计规范提升平台视觉一致性与品质感。"
       },
       {
         title: "TikTok Foundation",
         date: "2021 — 2022",
-        description: "覆盖 Creation、Effect House、Privacy、Analytics 多条业务线，主导从移动端到桌面端的产品设计与体系搭建。"
+        description: "同时负责 Creation、Effect House、Privacy、Analytics 多条业务线，涵盖从移动端到桌面端的产品设计与体系搭建。其中 0 到 1 推进 Effect House 特效管理工具的上线。"
       },
       {
         title: "Hema @Alibaba",
         date: "2020 — 2021",
-        description: "主导门店 IoT 终端工作流优化与设计系统维护；提炼盒马服务体验原则，定义门店体验策略。"
+        description: "门店 IoT 终端工作流优化与设计系统维护；提炼盒马服务体验原则，定义门店体验策略。"
       },
     ],
   },
