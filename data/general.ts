@@ -1,6 +1,6 @@
 export const generalData = {
   name: "Tianya Yi",
-  avatar: "/me.png",
+  avatar: "/avatar.jpg",
   jobTitle: "Senior Product Designer",
   website: "",
   about:
