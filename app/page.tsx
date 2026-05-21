@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ThemeSwitch from "@/components/theme-switch";
 import { generalData } from "@/data/general";
 import { contentData } from "@/data/content";
@@ -51,7 +50,7 @@ export default function Home() {
     <>
       <main className="max-w-xl mx-auto px-6 py-20 relative min-h-screen font-light">
         <section className="flex items-center">
-          <Image
+          <img
             alt="Author"
             src={withBasePath(generalData.avatar)}
             width={80}
