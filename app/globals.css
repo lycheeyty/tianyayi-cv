@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-inter), "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", sans-serif;
+}
+
+@page {
+  size: A4;
+  margin: 16mm;
+}
+
+@media print {
+  html,
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  main {
+    max-width: none !important;
+    min-height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  section {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  main > section:first-child {
+    margin-top: 0 !important;
+  }
+
+  h1,
+  h3,
+  h4,
+  p,
+  a,
+  span,
+  div {
+    color: #111827 !important;
+  }
+
+  h1 {
+    font-size: 20px !important;
+  }
+
+  h3 {
+    margin-bottom: 0.35rem !important;
+    font-size: 13px !important;
+  }
+
+  h4 {
+    font-weight: 600 !important;
+  }
+
+  p,
+  a,
+  span,
+  div {
+    font-size: 12px !important;
+    line-height: 1.45 !important;
+  }
+
+  .print-keep-together {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  .print-keep-together > div {
+    gap: 0.65rem !important;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+  svg,
+  .print-hide {
+    display: none !important;
+  }
+}
