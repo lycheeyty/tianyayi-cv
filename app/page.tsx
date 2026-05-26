@@ -72,9 +72,10 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="hover:underline"
                 >
-                  {generalData.website
-                    .replace(/(^\w+:|^)\/\//, "")
-                    .replace("www.", "")}
+                  {generalData.websiteLabel ??
+                    generalData.website
+                      .replace(/(^\w+:|^)\/\//, "")
+                      .replace("www.", "")}
                 </a>
               </span>
             ) : null}
